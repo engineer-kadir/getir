@@ -9,7 +9,7 @@
 @layer base{
   html,body{
     font-family:'Open Sans',sans-serif;
-    @apply antialiased bg-purple-50
+    @apply antialiased bg-gray-50
   }
 .flag-select{
 @apply !pb-0

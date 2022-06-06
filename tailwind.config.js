@@ -17,6 +17,9 @@ module.exports = {
         'secondary-brand-color':'#7849f7',
         'facebook-color':'#1877f2',
       },
+      spacing: {
+        '0.1': '0.063rem'
+      },
 
       gradientColorStops:{
         'brand-color':'#4c3398',
