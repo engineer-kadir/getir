@@ -11,6 +11,15 @@
     font-family:'Open Sans',sans-serif;
     @apply antialiased bg-gray-50
   }
+
+  @layer components {
+    @media(max-width: 640px) {
+        .container {
+            max-width: 100%;
+            @apply px-4 box-border
+        }
+    }
+}
 .flag-select{
 @apply !pb-0
 }
