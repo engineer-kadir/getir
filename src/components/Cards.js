@@ -6,7 +6,7 @@ const Cards = () =>{
     useEffect(()=>{
 setCards(cardsItem);
     },[])
-  return <div className='grid grid-cols-3 gap-x-4 '>
+  return <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 '>
       {cardsItem.length && cards.map(card=>(
           <div className="bg-white p-14  rounded-lg shadow-lg flex flex-col items-center justify-center text-center">
               <img className="w-[150px] h-[150px] mb-6" src={card.image}/>
